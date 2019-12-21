@@ -88,7 +88,7 @@ public class TMO {
     }
 
     private static double[][] TransposeMatr(double[][] A) {
-        double[][] res = new double[A.length][A[0].length];
+        double[][] res = new double[A[0].length][A.length];
         for (int i = 0; i < res.length; i++) {
             for (int j = 0; j < res[0].length; j++) {
                 res[i][j] = A[j][i];
