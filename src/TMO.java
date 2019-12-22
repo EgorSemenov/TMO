@@ -166,7 +166,7 @@ public class TMO {
 //        int[][] res = mulMatrix(countF(index-1),);
 //    }
     private static double[][] Sum(double[][] A, double[][] B) { //сумма матриц
-        double[][] K = new double[A[0].length][A.length];
+        double[][] K = new double[A.length][A[0].length];
         for (int i = 0; i < A[0].length; i++) {
             for (int j = 0; j < A.length; j++) {
                 K[i][j] = B[i][j] + A[i][j];
